@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace dotnet_api_214_openshift
+namespace MyWindowsService
 {
     public class BugTest
     {
         public BugTest()
         {
+            for (int i = 10; i < 10; i++) {
+			//System.out.println("Loop not true even once");
+		}
         }
         ~BugTest()
         {
